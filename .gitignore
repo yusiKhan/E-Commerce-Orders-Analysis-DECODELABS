@@ -1,0 +1,24 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Virtual Environment
+
+venv/
+env/
+.venv/
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+

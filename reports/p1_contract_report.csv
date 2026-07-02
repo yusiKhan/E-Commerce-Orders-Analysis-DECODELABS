@@ -1,0 +1,13 @@
+check,passed,failed_rows,business_impact
+Required columns present,True,0,Schema mismatch blocks reliable downstream processing
+OrderID uniqueness,True,0,Duplicate order IDs can inflate revenue and order counts
+TrackingNumber uniqueness,True,0,Duplicate tracking numbers indicate fulfillment data risk
+Date parse validity,True,0,Invalid dates break temporal analysis
+Positive quantity,True,0,Invalid quantities distort revenue calculations
+Positive unit price,True,0,Invalid prices create financial reporting errors
+Positive total price,True,0,Invalid totals affect revenue integrity
+TotalPrice equals Quantity x UnitPrice,True,0,"Mismatch indicates pricing, discount, or extraction inconsistency"
+Product domain validity,True,0,Unexpected Product values can break encoding and reporting
+PaymentMethod domain validity,True,0,Unexpected PaymentMethod values can break encoding and reporting
+OrderStatus domain validity,True,0,Unexpected OrderStatus values can break encoding and reporting
+ReferralSource domain validity,True,0,Unexpected ReferralSource values can break encoding and reporting

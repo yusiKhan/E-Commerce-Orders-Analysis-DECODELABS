@@ -1,0 +1,7 @@
+feature_a,feature_b,correlation,feature_a_target_corr,feature_b_target_corr,drop_candidate
+TotalPrice,ComputedGrossPrice,1.0,1.0,1.0,ComputedGrossPrice
+OrderQuarter,OrderMonth,0.9690969922346736,0.02333312346592161,0.02784796451260828,OrderQuarter
+GrossCartValue,UnpurchasedCartValue,0.8579721494155946,0.8402756141329647,0.44303914662370575,UnpurchasedCartValue
+TotalPrice,GrossCartValue,0.8402756141329647,1.0,0.8402756141329647,GrossCartValue
+ComputedGrossPrice,GrossCartValue,0.8402756141329647,1.0,0.8402756141329647,GrossCartValue
+CartUtilization,UnpurchasedCartItems,0.8381396824850017,0.23299298581779349,0.017112401893186777,UnpurchasedCartItems

@@ -1,0 +1,15 @@
+,missing_count,missing_rate,decision_matrix_action
+CouponCode,309,0.2575,Multi-dimensional imputation or feature exclusion review
+OrderID,0,0.0,No action required
+Date,0,0.0,No action required
+CustomerID,0,0.0,No action required
+Product,0,0.0,No action required
+Quantity,0,0.0,No action required
+UnitPrice,0,0.0,No action required
+ShippingAddress,0,0.0,No action required
+PaymentMethod,0,0.0,No action required
+OrderStatus,0,0.0,No action required
+TrackingNumber,0,0.0,No action required
+ItemsInCart,0,0.0,No action required
+ReferralSource,0,0.0,No action required
+TotalPrice,0,0.0,No action required
